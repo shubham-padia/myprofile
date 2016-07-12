@@ -11,7 +11,7 @@ html, body {
 }
 
 section #services {
-  margin : -5vh;
+  margin : -5vmin;
   text-align: center;
   transform: translatez(0);
 }
@@ -24,29 +24,29 @@ section #services h2 {
   text-align: center;
 }
 section #services li {
-  width: 120px;
-  height: 140px;
+  width: 16.7vmin;
+  height: 20vmin;
   display: inline-block;
   margin: 20px;
   list-style: none;
 }
 section #services li div {
-  width: 120px;
-  height: 120px;
+  width: 16.7vmin;
+  height: 16.7vmin;
   color: #74d4b3;
-  font-size: 3.4em;
+  font-size: 12vmin;
   text-align: center;
-  line-height: 120px;
+  line-height: 16.7vmin;
   background-color: #fff;
   transition: all 0.5s ease;
 }
 section #services li div:hover {
   transform: rotate(360deg);
-  border-radius: 100px;
+  border-radius: 13.89vmin;
 }
 section #services li span {
-  width: 120px;
-  height: 20px;
+  width: 16.67vmin;
+  height: 2.78vmin;
   display: block;
   padding: 15px 0px;
   color: #fff;

@@ -6,6 +6,7 @@ body {
   font-weight: 300;
   background-image: linear-gradient(to bottom right, rgba(211, 131, 18, 0.85), rgba(168, 50, 121, 0.85)), url("../img/bg.jpg");
   letter-spacing: 0.05em;
+  width: 100vw !important;
 }
 
 /* Layout */
@@ -21,8 +22,9 @@ body {
   text-align: center;
   background-position: 50% 50%;
   background-size: cover;
-  padding: 10% 10vh;
+  padding: 7vmin 7vmin;
   height : 100vh;
+  width: 100vw;
 }
 .header-title h1 {
   font-size: 1.5rem;
@@ -38,9 +40,9 @@ body {
 .header-title-avatar {
   background-size: cover;
   border-radius: 100%;
-  margin: 0 auto 2rem auto;
-  width: 6rem;
-  height: 6rem;
+  margin: 0 auto 1rem auto;
+  width: 25vmin;
+  height: 25vmin;
 }
 
 .header-title-hgroup {
@@ -80,7 +82,7 @@ body {
 }
 
 .about_me{
-  font-size:4vh;
+  font-size: 4vmin;
 }
 .about_heading{
   font-size: 10vh;
@@ -88,7 +90,7 @@ body {
   font-weight: 600;
 }
 img{
-  height: 20vh;
-  margin: 2vw;
+  height: 20vmin;
+  margin: 4vmin;
   width: auto;
 }
